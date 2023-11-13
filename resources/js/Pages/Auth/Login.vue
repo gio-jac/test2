@@ -1,5 +1,5 @@
 <script setup>
-import GuestLayoutTest from "@/Layouts/GuestLayoutTest.vue";
+    import GuestLayoutTest from "@/Layouts/GuestLayoutTest.vue";
 </script>
 
 <template>
