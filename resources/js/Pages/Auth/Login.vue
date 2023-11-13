@@ -1,9 +1,11 @@
 <script setup>
+    import { Head } from '@inertiajs/vue3';
     import GuestLayoutTest from "@/Layouts/GuestLayoutTest.vue";
 </script>
 
 <template>
     <GuestLayoutTest>
+        <Head title="Log In" />
         <form
             class="space-y-5 dark:text-white"
             @submit.prevent="router.push('/')"
