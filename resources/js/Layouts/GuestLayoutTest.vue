@@ -2,11 +2,11 @@
 import { Link } from '@inertiajs/vue3';
 import { ref,onMounted } from 'vue';
 
-let isLoading = ref(true);
+const isLoading = ref(true);
 
 onMounted(() => {
     setTimeout(() => {
-        isLoading = isLoading.value = false;
+        isLoading.value = false;
     }, 1000);
 });
 </script>
