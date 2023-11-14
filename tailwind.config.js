@@ -63,7 +63,7 @@ export default {
                 },
             },
             fontFamily: {
-                nunito: ["Nunito", "sans-serif"],
+                frutiger: ["Frutiger", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif"],
             },
             spacing: {
                 4.5: "18px",

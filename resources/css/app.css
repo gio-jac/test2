@@ -2,13 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Frutiger';
+    src: url('../../public/assets/fonts/Frutiger.eot');
+    src: url('../../public/assets/fonts/Frutiger.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/Frutiger.woff2') format('woff2'),
+        url('../../public/assets/fonts/Frutiger.woff') format('woff'),
+        url('../../public/assets/fonts/Frutiger.ttf') format('truetype'),
+        url('../../public/assets/fonts/Frutiger.svg#Frutiger') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frutiger';
+    src: url('../../public/assets/fonts/FrutigerBold.eot');
+    src: url('../../public/assets/fonts/FrutigerBold.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/FrutigerBold.woff2') format('woff2'),
+        url('../../public/assets/fonts/FrutigerBold.woff') format('woff'),
+        url('../../public/assets/fonts/FrutigerBold.ttf') format('truetype'),
+        url('../../public/assets/fonts/FrutigerBold.svg#FrutigerBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 @layer components {
     html {
         @apply scroll-smooth;
     }
 
     body {
-        @apply bg-[#fafafa] font-nunito;
+        @apply bg-[#fafafa] font-frutiger;
     }
 
     body.dark {

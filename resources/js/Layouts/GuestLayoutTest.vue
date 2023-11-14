@@ -5,7 +5,7 @@
 <template>
     <div>
         <div
-            class="relative flex min-h-screen items-center justify-center bg-[url(/assets/images/auth/Hexagon.svg)] bg-cover bg-center bg-no-repeat px-6 py-10 dark:bg-[#060818] sm:px-16"
+            class="relative flex min-h-screen items-center justify-center bg-[url('/assets/images/auth/Hexagon.svg')] bg-cover bg-center bg-no-repeat px-6 py-10 dark:bg-[#060818] sm:px-16"
         >
             
             <div
